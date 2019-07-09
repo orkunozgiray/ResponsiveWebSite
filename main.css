@@ -480,7 +480,7 @@ li {
 }
 
 .timeline .date {
-    border-bottom: 1px solid rgba(241, 39, 24, 0.01);
+    border-bottom: 1px solid rgba(7, 153, 56, 0.01);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -510,7 +510,7 @@ li {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #052d99;
+    box-shadow: 0 0 0 4px #05995b;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
