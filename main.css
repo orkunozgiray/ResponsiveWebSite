@@ -204,29 +204,6 @@ li {
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
-.landing-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-}
-
-.landing-text h1 {
-    font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, #f8f8f8, #261d2e);
-    -webkit-text-fill-color: transparent;   
-    padding: 1rem;
-    user-select: none;
-}
-
-.landing-text h6 {
-    font-size: 2rem;
-    font-weight: 300;
-}
 /*End header*/
 
 /*Start about*/
@@ -614,6 +591,30 @@ input[type="submit"]:hover {
         background-size: cover;
     }
 
+    .profile-img {
+        width: 300px;
+        height: 300;
+    }
+
+    .landing-text-container span {
+        font-size: 8rem;
+    }
+
+    .about-details {
+        width: 33rem;
+        height: 33rem;
+        text-align: center;
+    }
+
+    .about-details p {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .social-media {
+        margin-top: 10rem;
+    }
+
     .landing-text h1 {
         font-size: 15rem;
     }
@@ -635,7 +636,11 @@ input[type="submit"]:hover {
     }
 
     .about-heading h1 {
-        font-size: 8rem;
+        font-size: 5rem;
+    }
+
+    .about-heading h6 {
+        font-size: 2rem;
     }
 
     .section-heading {
@@ -645,7 +650,7 @@ input[type="submit"]:hover {
     .about-details .nav-list {
         flex-direction: initial;
     }
-
+z
     .about-details li {
         margin: 0 2rem;
     }
@@ -746,6 +751,19 @@ input[type="submit"]:hover {
     color: bisque;
 }
 
+.landing-text h1 {
+    font-size: 20rem;
+    font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(to top, #f8f8f8, #261d2e);
+    -webkit-text-fill-color: transparent;   
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
 /*Text Effect*/
 *{
     padding: 0;
@@ -754,9 +772,10 @@ input[type="submit"]:hover {
   }
 
   .landing-text-container{
+    z-index: 1;  
     text-align: center;
     position: absolute;
-    top: 54%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
@@ -769,7 +788,7 @@ input[type="submit"]:hover {
   .text1{
     font-family: 'Barriecito', cursive;
     color: rgb(174, 184, 151);
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: 700;
     letter-spacing: 1rem;
     margin-bottom: 0;
