@@ -612,7 +612,7 @@ input[type="submit"]:hover {
     }
 
     .social-media {
-        margin-top: 25rem;
+        margin-top: 5rem;
     }
 
     .landing-text h1 {
@@ -644,6 +644,7 @@ input[type="submit"]:hover {
     }
 
     .section-heading {
+        margin-top: 10rem;
         font-size: 3rem;
     }
 
