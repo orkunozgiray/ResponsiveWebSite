@@ -683,6 +683,10 @@ z
         top: 2rem;
         right: 2rem;
     }
+    
+    .social-media {
+        margin-top: 15rem;
+    }
 
     .landing-text h1 {
         font-size: 8rem;
