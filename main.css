@@ -683,7 +683,11 @@ z
         top: 2rem;
         right: 2rem;
     }
-    
+
+    .section-heading {
+        margin-top: 15rem;
+    }
+
     .social-media {
         margin-top: 15rem;
     }
