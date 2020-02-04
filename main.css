@@ -39,27 +39,112 @@ img {
 
 /*Start reusable*/
 .container {
+    width: 30%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.container-education {
+    width: 130%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.container-work {
+    width: 130%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.container-services {
     width: 90%;
     max-width: 120rem;
     height: 100%;
     margin: 0 auto;
     position: relative;
+    background-color: #4d4949;
 }
 
 .section-heading {
     text-align: center;
     margin-bottom: 10rem;
 }
+.section-heading-education {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.section-heading-work {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.section-heading-skills {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.section-heading-projects {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
 
 .section-heading h1 {
-    font-family: 'Delius', cursive;
-    font-size: 4.5rem;
-    color: rgba(15, 12, 12, 0.3);
-    text-transform: uppercase;
+    font-family: 'Girassol', cursive;
+    font-size: 7.5rem;
+    color: rgba(255, 253, 253, 0.3);
+    text-transform: capitalize;
     font-weight: 600;
     position: relative;
     margin-bottom: 1rem;
-    text-shadow: 3px 2px 4px #695757;
+    text-shadow: 1px 1px 1px #e6e1e1;
+}
+.section-heading-education h1 {
+    font-family: 'Girassol', cursive;
+    font-size: 7.5rem;
+    color: rgba(20, 20, 20, 0.3);
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px #363535;
+}
+.section-heading-work h1 {
+    font-family: 'Girassol', cursive;
+    font-size: 7.5rem;
+    color: rgba(14, 14, 14, 0.3);
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px #2b2a2a;
+}
+.section-heading-skills h1 {
+    font-family: 'Girassol', cursive;
+    font-size: 7.5rem;
+    color: rgba(14, 14, 14, 0.3);
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px #2b2a2a;
+}
+.section-heading-projects h1 {
+    font-family: 'Girassol', cursive;
+    font-size: 7.5rem;
+    color: rgba(14, 14, 14, 0.3);
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px #2b2a2a;
 }
 
 .section-heading h1::before,
@@ -108,7 +193,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #0e0d0d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -117,13 +202,13 @@ header {
 .top-nav a {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5rem;
-    color: #9e9eeb;
+    color: #ffffff;
 }
 
 .top-nav a:hover {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5rem;
-    color: #f15252;
+    color: #a00707;
 }
 
 .nav-list {
@@ -147,8 +232,8 @@ li {
 
 .nav link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, #ffe838, #dfcad7);
-    color: #f7cbd6;
+    background: linear-gradient(to top, #ffffff, #070707);
+    color: #ffffff;
 }
 
 .top-nav.open {
@@ -175,7 +260,7 @@ li {
 }
 
 .bar {
-    background: linear-gradient(to right, #03294d, #f2f547);
+    background: linear-gradient(to right, #acaaaa, #000000);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -215,25 +300,26 @@ li {
 
 .about-heading {
     text-emphasis: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
     margin-bottom: 6rem;
     text-shadow: 2px 2px 4px #000000;
 }
 
 .about-heading h1{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Girassol', cursive;
     font-size: 10rem;
-    opacity: .3;
-    color: #f15252;
+    opacity: .7;
+    color: #001818;
 }
 
-.about-heading h6 {
+/*.about-heading h6 {
     font-family: 'Press Start 2P', cursive;
     font-size: 3.5rem;
     font-weight: 300;
-    color: #063a6b;
+    color: #240000;
 }
+*/
 
 .about-p {
     font-family: 'Permanent Marker', cursive;
@@ -243,7 +329,7 @@ li {
 }
 
 .profile-img {
-    flex: 1;
+    flex: 0.7;
     margin-right: 5rem;
 }
 
@@ -257,22 +343,24 @@ li {
     justify-content: space-between;
     width: 50%;
     margin: auto;
-    padding-top: 200px;
+    padding-top: 100px;
+    margin-top: 2rem;
   }
 
   .social-media i {
-    color: rgb(236, 75, 75);
+    color: rgb(73, 124, 218);
     font-size: 5em;
     padding: 8px;
   }
 
-.social-media{
+/*.social-media{
     position: absolute;
     margin-top: 5rem;
     top: 88%;
     left: 50%;
     transform: translate(-50%,-50%);
   }
+  */
 
   .social-media a{
     display: inline-flex;
@@ -289,7 +377,7 @@ li {
   }
 
   .social-media a:hover{
-    background: #3868cf;
+    background: #c91616;
   }
 
   .social-media a i{
@@ -318,6 +406,13 @@ li {
     align-items: center;
     padding: 2rem;
 }
+.skill-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
 
 .skill p {
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -326,27 +421,55 @@ li {
 
 .skill h1 {
     font-family: 'Luckiest Guy', cursive;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
+    color: rgb(206, 205, 205);
 }
 
 .icon-container {
     width: 10rem;
     height: 10rem;
-    border: 3px solid #d3cb92;
-    background-color: #382631;
+    border: 3px solid #383838;
+    background-color: #968809;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+.icon-container-skills {
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 3px solid #383838;
+    background-color: #968809;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i {
-    color: #ffe838;
+    color: #25230f;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
+}
+.icon-container-skills i {
+    color: #25230f;
+    font-size: 3rem;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+
+.skill-1 h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(206, 205, 205);
+    color: #25230f;
+    font-size: 1.5rem;
+    margin: auto;
+    transform: rotate(-15deg);
 }
 /*End services*/
 
@@ -360,11 +483,6 @@ li {
 
 .portfolio-item:last-child {
     margin-bottom: 0;
-}
-
-.profile-img {
-    width: 50rem;
-    flex: 1;
 }
 
 .portfolio-description h1 {
@@ -421,10 +539,14 @@ li {
 /*End portfolio*/
 
 /*Start timeline*/
+.timeline {
+    background-color: #ffffff;
+}
+
 .timeline ul {
-    border-left: 4px solid #c29f05;
+    border-left: 4px solid #292929;
     border-radius: .8rem;
-    background-color: rgba(35, 7, 160, 0.05);
+    background-color: rgba(202, 5, 5, 0.705);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -438,17 +560,17 @@ li {
 }
 
 .timeline h1 {
+    color: #ebebeb;
     font-family: 'Original Surfer', cursive;
-    font-size: 2.7rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 1rem;
-    opacity: .3;
 }
 
 .timeline h2 {
     font-family: 'Chewy', cursive;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -456,6 +578,7 @@ li {
 }
 
 .timeline p {
+    color: rgb(201, 188, 188);
     font-family: 'Voltaire', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
@@ -492,12 +615,12 @@ li {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #05995b;
+    box-shadow: 0 0 0 4px #d6c5c8;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #696064;
+    background-color: #000000;
 }
 /*End timeline*/
 
@@ -591,16 +714,13 @@ input[type="submit"]:hover {
 
 /*Start media queries*/
 @media screen and (max-width: 768px) {
-    body {
+    /*body {
         background: url("images/sitebg.jpg") no-repeat center fixed;
         background-size: cover;
     }
+    */
 
-    .profile-img {
-        width: 300px;
-        height: 300;
-    }
-
+  
     .landing-text-container span {
         font-size: 6rem;
     }
@@ -713,10 +833,6 @@ z
         flex-direction: column;
     }
 
-    .profile-img {
-        margin: 0 0 7rem 0;
-    }
-
     .portfolio-item {
         flex-direction: column;
     }
@@ -751,17 +867,17 @@ z
 /*End media queries*/
 .address-section address{
     font-size: 18px;
-    color: bisque;
+    color: rgb(85, 51, 9);
 }
 
 .fa-phone-square {
     font-size: 18px;
-    color: bisque;
+    color: rgb(180, 109, 21);
 }
 
 .fa-envelope {
     font-size: 18px;
-    color: bisque;
+    color: rgb(70, 42, 8);
 }
 
 .landing-text h1 {
@@ -777,7 +893,7 @@ z
     font-size: 2rem;
     font-weight: 300;
 }
-/*Text Effect*/
+/*Text Effect
 *{
     padding: 0;
     margin: 0;
@@ -830,7 +946,30 @@ z
         margin-bottom: -40px;
     }
   }
-/*Text EFfect*/
+Text EFfect*/
+
+/*Text Effect2*/
+
+.ml15 {
+    z-index: 1;  
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 800;
+    font-size: 7.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-shadow: 0px 7px 0px rgb(114, 114, 112), 0 0 1em rgb(111, 119, 117), 0 0 0.2em rgb(106, 107, 106);;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+  /*Text Effect2*/
 
 .progress-bar {
     font-family: 'Original Surfer', cursive;
@@ -884,4 +1023,12 @@ z
   }
   /*Hovered Button*/
 
-  
+  .date img {
+    width: 80px;
+    margin-top: -70px;
+    margin-right: 20em;
+  }
+
+  .date h1 {
+      margin-left: 100px;
+  }

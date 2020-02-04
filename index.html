@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
@@ -51,28 +53,31 @@
                 </li>
             </ul>
         </nav>
-        <div class="landing-text-container">
-            <span class="text1">Orkun Ozgiray</span>
-            <span class="text2"> Mobile & Web Developer</span>
-        </div>
+        <h1 class="ml15">
+            <span class="word">Orkun</span>
+            <span class="word">Ozgiray</span>
+        </h1>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </header>
 
     <section class="about" id="about">
         <div class="container">
             <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-                <img src="images/profile.PNG" alt="" style="border-radius: 0 50% 50% 50%">
+                <img src="images/profile.PNG" alt="" style="border-radius: 0 50% 50% 50% " >
             </div>
             <div class="about-details" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-heading">
-                    <h1>Aboutme</h1>
-                    <h6>Background</h6>
+                    <h1>About Me</h1>
+                    <!-- <h6>Background</h6> -->
                 </div>
                 <p class="about-p">
-                   Born and raised in Istanbul.
-                   After graduation from university, I have decided to change my profession. During my researches about
-                   universities and colleges, I thought that the best option would be moving to Canada to enroll "Georgian College"
-                   as a"Computer Programmer" student. After first 2 semesters, I went back to Turkey for my first Co-op and was hired to 
-                   "Uniball Turkey" as an IT intern.
+                   Born and raised in Istanbul. After I graduated from Isik University as an 
+                   "Electronical/Electrical Engineer", I have decided to upgrade my qualifications by
+                   learning programming and decided to enroll Georgian College as a "Computer Sciences"
+                   student. After successfull 2 semesters, I was hired be Uniball Turkey for 
+                   "IT Technician/Web & Mobile Developer" position. 
+                   the first co-op.
                 </p>
                 <div class="social-media">
                     <ul class="nav-list">
@@ -103,14 +108,15 @@
     </section>
 
     <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
+        <div class="container-education">
+            <div class="section-heading-education">
                 <h1>Education</h1>
             </div>
             <div class="timeline" data-aos="fade-down" data-aos-delay="300">
                 <ul>
                     <li class="date" data-date="2018-2019">
                         <h1>Georgian College</h1>
+                        <img src="images/gc-logo2.svg" alt="">
                         <h2>Computer Programmer</h2>
                         <p>
                             Advanced Object Oriented Programming Using Java, HTML,
@@ -122,6 +128,7 @@
                     </li>
                     <li class="date" data-date="2008-2013">
                         <h1>Isik University</h1>
+                        <img src="images/iu-logo2.png" alt="">
                         <h2>Electrical/Electronical Engineering</h2>
                         <p>
                             Key Courses: Object Oriented Programming Using Java, HTML, Circuit
@@ -132,7 +139,8 @@
                         </p>
                     </li>
                     <li class="date" data-date="2004-2008">
-                        <h1>Uskudar Anatolian High School</h1>
+                        <h1>Uskudar Anatolian H.School</h1>
+                        <img src="images/ua-logo.jpg" alt="">
                         <h2>Science Department</h2>
                         <p>Most of the courses were related to Physics, Mathematics, Biology and Chemistry</p>
                     </li>
@@ -142,14 +150,15 @@
     </section>
 
     <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
+        <div class="container-work">
+            <div class="section-heading-work">
                 <h1>Work Experience</h1>
             </div>
             <div class="timeline" data-aos="fade-down" data-aos-delay="300">
                 <ul>
                     <li class="date" data-date="2018-2019">
                         <h1>UniBall Turkey</h1>
+                        <img src="images/ub-logo.png" alt="">
                         <h2>IT Intern</h2>
                         <p>
                             Took part of creating a staff reporting application based on C#.
@@ -160,6 +169,7 @@
                     </li>
                     <li class="date" data-date="2015-2017">
                         <h1>Edit Electronic</h1>
+                        <img src="images/ee-logo.png" alt="">
                         <h2>Project Engineer</h2>
                         <p>
                             Supervising the Research&Development section and testing
@@ -169,6 +179,7 @@
                     </li>
                     <li class="date" data-date="2013-2015">
                         <h1>Anil Cable</h1>
+                        <img src="images/logo-png.webp" alt="">
                         <h2>Engineer Cadet</h2>
                         <p>
                             Engineer Cadet Key Responsibilities: Observing production process of the
@@ -182,7 +193,7 @@
 
 
     <section class="services" id="services">
-        <div class="container">
+        <div class="container-services">
             <div class="section-heading">
                 <h1>Services</h1>
             </div>
@@ -191,7 +202,7 @@
                     <div class="icon-container">
                         <i class="fas fa-layer-group"></i>
                     </div>
-                    <h1>Web Design</h1>
+                    <h1>IT Services</h1>
                 </div>
                 <div class="skill" data-aos="fade-in" data-aos-delay="600">
                     <div class="icon-container">
@@ -201,87 +212,105 @@
                 </div>
                 <div class="skill" data-aos="fade-in" data-aos-delay="900">
                     <div class="icon-container">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h1>Mobile Development</h1>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
                         <i class="fas fa-desktop"></i>
                     </div>
-                    <h1>App Development</h1>
+                    <h1>Software Development</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="skill-bars" id="skill-bars">
+    <section class="skills" id="skills">
         <div class="container">
-            <div class="section-heading">
-                <h1>My Skills</h1>
+            <div class="section-heading-skills">
+                <h1>Skills</h1>
             </div>
-            <div class="myskills" data-aos="fade-out" data-aos-delay="600">
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        HTML/CSS
+            <div class="my-skills">
+                <div class="skill-1" data-aos="fade-left" data-aos-delay="300">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-layer-group"></i>
                     </div>
+                    <h1>HTML / CSS / JavaScript</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        JavaScript
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-code"></i>
                     </div>
+                    <h1>react.js / angular.js / jquery</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        ReactJS
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-phone"></i>
                     </div>
+                    <h1>node.js</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        NodeJS
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-phone"></i>
                     </div>
+                    <h1>ReactNative</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        Java
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>bootstrap</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        C#
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>java</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        ASP.Net
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>C#</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        Swift
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>Android</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        SQL
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>Swift</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        LINUX
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>mysql / mssql</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        Android
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>linux</h1>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                        React Native
+                <div class="skill-1" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container-skills">
+                        <i class="fas fa-desktop"></i>
                     </div>
+                    <h1>ASP.Net</h1>
                 </div>
-            </div>    
+            </div>
         </div>
     </section>
 
     <section class="portfolio" id="portfolio">
         <div class="container">
-            <div class="section-heading">
+            <div class="section-heading-projects">
                 <h1>Projects</h1>
             </div>
             <div class="portfolio-item">
@@ -458,7 +487,7 @@
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-heading">
-                <h1 style="color: rgb(243, 228, 144)">Contact</h1></br>
+                <h1 style="color: rgb(78, 71, 32)">Contact</h1></br>
                 <div class="address-section" data-aos="fade-right" data-aos-delay="300">
                     <address>242 Penetanguishene Road Barrie / ON</address>
                     <address>L4M7C2</address>
@@ -472,11 +501,11 @@
                 </div>    
             </div>
             <form action="" data-aos="fade-up" data-aos-delay="300">
-                <label style="color: antiquewhite" for="name">Name:</label>
+                <label style="color: rgb(85, 62, 31)" for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-                <label style="color: antiquewhite" for="email">Email:</label>
+                <label style="color: rgb(32, 21, 5)" for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-                <label style="color: antiquewhite" for="service">Services:</label>
+                <label style="color: rgb(138, 6, 6)" for="service">Services:</label>
                 <select name="services" id="services">
                     <option value="">Job Offer</option>
                     <option value="">Web Design</option>
@@ -484,7 +513,7 @@
                     <option value="">Mobile Development</option>
                     <option value="">Questions</option>
                 </select>
-                <label style="color: antiquewhite" for="subject">Message:</label>
+                <label style="color: rgb(11, 23, 194)" for="subject">Message:</label>
                 <textarea name="subject" id="subject" cols="10" rows="10" placeholder="Please type your message here.." required></textarea>
                 <input type="submit" value="Submit">
             </form>

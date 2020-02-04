@@ -27,3 +27,19 @@ $(document).ready(function () {
         once: true,
     })
 });
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 1200,
+    delay: (el, i) => 1200 * i
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 10000,
+    easing: "easeOutExpo",
+    delay: 100000
+  });
